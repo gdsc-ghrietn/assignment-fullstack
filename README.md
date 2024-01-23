@@ -49,6 +49,6 @@ You have to fork this repository and push changes to your forked repository.
 
 **DO NOT create a pull request to this repository**. Unless you want to reveal your assignment code to others.
 
-Please email us the link to your forked repository at [gdsc@gdsc@ghrietn.raisoni.net](mailto:gdsc@gdsc@ghrietn.raisoni.net)
+Please email us the link to your forked repository at [gdsc@ghrietn.raisoni.net](mailto:gdsc@ghrietn.raisoni.net)
 
 Before you submit, make sure you have completed all the tasks mentioned above and all the tests are passing.
