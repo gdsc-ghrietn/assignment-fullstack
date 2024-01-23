@@ -5,6 +5,8 @@ This is a simple assignment to test your skills in Full Stack Web Development. O
 - Tech: React, Express.js, TypeScript.
 - Concepts: REST API, CRUD operations, JSON, Git.
 
+## Deadline: **1 February 2024, 11:59 PM IST**
+
 ## What to do?
 You are required to create a simple web application that can be used to manage a list of [users](/Backend/src/users.ts).
 It should be able to perform CRUD operations on the list of users.
@@ -41,8 +43,6 @@ npm run dev
 Make sure you are in the [Frontend](/Frontend) directory and have installed all the dependencies using `npm install`.
 
 **Note: Use of any sort of automated code generators (AI) is not allowed. You will be asked to explain your code in detail during the interview.**
-
-## Deadline: **1 February 2024, 11:59 PM IST**
 
 ## How to submit?
 You have to fork this repository and push changes to your forked repository.
