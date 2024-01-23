@@ -3,6 +3,20 @@ import app from '../src/index';
 
 const request = supertest(app);
 
+// get all users
+describe('GET /users', () => {
+  it('should get all users', async () => {
+      const response = await request.get('/users');
+      expect(response.status).toBe(200);
+      expect(response.body).toEqual([
+          { id: 1, name: 'John' },
+          { id: 2, name: 'Jane' },
+          { id: 3, name: 'Bob' },
+      ]);
+  });
+  }
+);
+
 // get user by id
 describe('GET /user/:id', () => {
   it('should get user name by ID', async () => {
@@ -27,7 +41,6 @@ describe('POST /user', () => {
       const response = await request.post('/user').send(requestBody);
       expect(response.status).toBe(200);
       const response2 = await request.get('/user/9');
-      console.log(response2.body);
       expect(response2.status).toBe(200);
       expect(response2.body).toEqual({ id: 9, name: 'test' });
   });
@@ -46,25 +59,15 @@ describe('DELETE /user/:id', () => {
   }
 );
 
-
-// get all users
-describe('GET /users', () => {
-  it('should get all users', async () => {
-      const response = await request.get('/users');
-      expect(response.status).toBe(200);
-  });
-  }
-);
-
 // update a user
 describe('PUT /user/:id', () => {
   it('should update a user', async () => {
-      const requestBody = { id: 1, name: 'test' };
-      const response = await request.put('/user/1').send(requestBody);
+      const requestBody = { id: 2, name: 'test' };
+      const response = await request.put('/user/2').send(requestBody);
       expect(response.status).toBe(200);
-      const response2 = await request.get('/user/1');
+      const response2 = await request.get('/user/2');
       expect(response2.status).toBe(200);
-      expect(response2.body).toEqual({ id: 1, name: 'test' });
+      expect(response2.body).toEqual({ id: 2, name: 'test' });
   });
   }
 );
