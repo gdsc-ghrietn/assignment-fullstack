@@ -42,6 +42,8 @@ Make sure you are in the [Frontend](/Frontend) directory and have installed all 
 
 **Note: Use of any sort of automated code generators (AI) is not allowed. You will be asked to explain your code in detail during the interview.**
 
+## Deadline: **1 February 2024, 11:59 PM IST**
+
 ## How to submit?
 You have to fork this repository and push changes to your forked repository.
 
