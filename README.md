@@ -5,7 +5,7 @@ This is a simple assignment to test your skills in Full Stack Web Development. O
 - Tech: React, Express.js, TypeScript.
 - Concepts: REST API, CRUD operations, JSON, Git.
 
-## Deadline: **1 February 2024, 11:59 PM IST**
+## Deadline: **13 February 2024, 11:59 PM IST**
 
 ## What to do?
 You are required to create a simple web application that can be used to manage a list of [users](/Backend/src/users.ts).
